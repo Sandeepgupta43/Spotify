@@ -30,6 +30,9 @@ body{
     overflow:auto ;
   
   }
+  .content h2, .card-container{
+    margin-left: 20px;
+  }
   
   .music{
     background-color:black;
@@ -178,6 +181,7 @@ body{
   .card{
     background-color:#232323;
     width:150px;
+    
     border-radius:0.5rem;
     padding:1rem;
     margin-left:0.5rem;
@@ -283,6 +287,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .icon5, .icon4, .icon2, .icon1{
+    height: 15px;
+    width: 15px;
+    margin: 10px;
   }
   
   .pr{
